@@ -89,6 +89,8 @@ main {
     font-size: .85rem;
 }
 
+/* STYLISATION FOR FOOTER */
+
 .footer {
     position: absolute;
     bottom: 0;
@@ -107,3 +109,20 @@ main {
     color: grey;
     text-decoration: none;
 }
+
+/* STYLISATION FOR ABOUT PAGE */
+#about a {
+    color: #929292;
+}
+
+#about a:hover {
+    color: #929292;
+    text-decoration: none;
+}
+
+/* #about-img {
+    float: left;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 3rem;
+} */
