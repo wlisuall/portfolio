@@ -81,6 +81,7 @@ main {
     font-size: 1.5rem;
     font-weight: bolder;
     font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
     margin-bottom: 2%;
 }
 
@@ -95,7 +96,7 @@ main {
     height: 40px;
     line-height: 40px;
     color: grey;
-    font-size: 12px;
+    font-size: 11px;
 }
 
 .text-muted a {
