@@ -133,10 +133,14 @@ main {
     float: left;
     width: 100%;
     object-fit: cover;
-    margin-bottom: 2%;
+    margin-bottom: 2.5%;
 }
 
 .page-content p {
     margin-left: 7%;
-    padding-top: 4rem;
+    margin-right: 7%;
+}
+
+.intro {
+    font-weight: 800;
 }
