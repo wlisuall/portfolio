@@ -120,9 +120,22 @@ main {
     text-decoration: none;
 }
 
-/* #about-img {
+/* STYLISATION FOR PROJECT PAGES */
+.page-title {
+    font-size: 2rem;
+    font-weight: bolder;
+    font-family: 'Overpass', sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 2%;
+}
+
+.page-img {
     float: left;
     width: 100%;
     object-fit: cover;
-    border-radius: 3rem;
-} */
+    margin-bottom: 2%;
+}
+
+.page-desc {
+    margin-top: .5%;
+}
