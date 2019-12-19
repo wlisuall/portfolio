@@ -136,6 +136,7 @@ main {
     margin-bottom: 2%;
 }
 
-.page-desc {
-    margin-top: .5%;
+.page-content p {
+    margin-left: 7%;
+    padding-top: 4rem;
 }
