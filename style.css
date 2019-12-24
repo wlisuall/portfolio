@@ -72,7 +72,7 @@ main {
     color: black;
     height: 100%;
 }
-.project-hov:hover {
+.project-hov:hover a {
     text-decoration: none;
     color: #6794e7;
 }
