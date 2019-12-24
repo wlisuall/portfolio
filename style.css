@@ -67,12 +67,12 @@ main {
     width: 100%;
     object-fit: cover;
 }
-.project-desc a {
+.row a {
     display: block;
     color: black;
     height: 100%;
 }
-.project-desc a:hover {
+.row a:hover {
     text-decoration: none;
     color: #6794e7;
 }
