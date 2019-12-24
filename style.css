@@ -60,21 +60,18 @@ main {
 
 .project {
     margin-bottom: 10%;
+    color: black;
+}
+
+.project:hover {
+    text-decoration: none;
+    color: #6794e7;
 }
 
 .project-img {
     float: left;
     width: 100%;
     object-fit: cover;
-}
-.project-desc a {
-    display: block;
-    color: black;
-    height: 100%;
-}
-.project-desc a:hover {
-    text-decoration: none;
-    color: #6794e7;
 }
 
 .project-title {
@@ -87,6 +84,10 @@ main {
 
 .project-detail {
     font-size: .85rem;
+}
+
+a.link-block {
+    display: inline-block;
 }
 
 /* STYLISATION FOR FOOTER */
