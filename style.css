@@ -137,6 +137,14 @@ main {
     margin-right: 7%;
 }
 
+.page-content ul {
+    margin: .5% 7% .5% 10%;
+}
+
+.page-content small {
+    margin-top: 1%;
+}
+
 .intro {
     font-weight: 800;
     text-transform: uppercase;
