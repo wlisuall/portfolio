@@ -123,14 +123,13 @@ main {
     font-weight: bolder;
     font-family: 'Overpass', sans-serif;
     text-transform: uppercase;
-    margin-bottom: 2%;
 }
 
-.page-img {
+.page-content img {
     float: left;
     width: 100%;
     object-fit: cover;
-    margin-bottom: 2.5%;
+    margin: 2% 0 2.5%;
 }
 
 .page-content p {
