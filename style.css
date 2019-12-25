@@ -126,10 +126,8 @@ main {
 }
 
 .page-content img {
-    display: block;
     float: left;
     width: 100%;
-    object-fit: cover;
     margin: 2% 0 2.5%;
 }
 
