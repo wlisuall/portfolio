@@ -145,3 +145,13 @@ main {
     font-weight: 800;
     text-transform: uppercase;
 }
+
+/* STYLISATION FOR BLOG PAGE */
+
+.post img{
+    float: left;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin: 2% 0 2.5%;
+}

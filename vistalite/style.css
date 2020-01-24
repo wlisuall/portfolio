@@ -1,0 +1,224 @@
+/*  THIS IS THE STYLESHEET FOR VISTALITE CORP'S WEBSITE
+*/
+
+
+/* STANDARDS */
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.standard {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container-fluid, .row, .col, .col-12 {
+    padding: 0px;
+    margin: 0px;
+    /* border: 1px solid black; */
+ }
+
+ hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+}
+
+br {
+    display: block;
+    padding: 0;
+    margin: 0;
+    line-height: 5px;
+    content: " ";
+}
+
+/*  STYLISATION FOR TOP BAR */
+#top {
+    padding: 3vh;
+    position: sticky;
+}
+
+#navbox {
+    width: 100%;
+    /* border: 1px solid red; */
+    float: right;
+}
+
+#title {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 110%;
+    font-weight: 700;
+    padding-left: 4%;
+}
+
+.nav {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.nav a {
+    color: black;
+}
+
+.nav a:hover {
+    color: #2370ff;
+    text-decoration: none;
+}
+
+/* STYLISATION FOR BANNERS */
+.banner {
+    margin: 0 auto;
+    height: 50vh;
+    width: 100%;
+    overflow: hidden;
+}
+
+.banner img {
+    width: 100vw;
+    height: 50vh;
+    object-fit: cover;
+}
+
+/* STYLISATION FOR PAGES */
+.page-desc {
+    position: absolute;
+    top: 20%;
+    left: 5%;
+    width: 35vw;
+    max-height: 30vh;
+    background: rgb(0, 0, 0, 0.7);
+}
+
+.page-desc h1 {
+    font-size: 150%;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: white;
+    padding: 5% 5% 0;
+}
+
+.page-desc p {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    padding: 0 5%;
+}
+
+.page-title h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 160%;
+    text-transform: capitalize;
+    padding: 8vh 5vh 3vh;
+}
+
+.catalogue {
+    margin-bottom: 5vh;
+    text-decoration: none;
+    color: black;
+}
+
+.catalogue:hover {
+    text-decoration: none;
+    color: #2370ff;
+}
+
+.catalogue img, #about img {
+    width: 100%;
+    height: 25vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.catalogue h3, .listing h3 {
+    font-family: 'Raleway', sans-serif;
+    font-size: 125%;
+    margin-top: 3vh;
+}
+
+/* STYLISATION FOR PRODUCT LISTING */
+.listing {
+    margin-bottom: 5vh;
+}
+
+.listing img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.listing p, ul, #about p, #main-about p, #contact p {
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+}
+
+.listing strong {
+    font-weight: 700;
+}
+
+/* STYLISATION FOR ABOUT, CONTACT */
+#about, #contact, #main-about {
+    padding-left: 2%;
+    padding-right: 2%;
+}
+
+#contact p {
+    margin-right: 2%;
+}
+
+#about img {
+    padding-top: 2%;
+}
+
+#contact img {
+    width: 100%;
+    height: 50vh;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+#contact iframe {
+    width: 100%;
+    height: 50vh;
+    border:0;
+}
+
+#contact a, #main-about a {
+    color: #2370ff;
+}
+
+#contact a:hover, #main-about a:hover {
+    color: black;
+    text-decoration: none;
+}
+
+/* STYLISATION FOR FOOTER */
+
+.footer {
+    top: 20px;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+    margin-top: 5%;
+    background-color: grey;
+    color: white;
+    font-size: 11px;
+    font-family: 'Raleway', sans-serif;
+}
+
+.text-muted a {
+    color: grey;
+}
+
+.text-muted a:hover {
+    color: grey;
+    text-decoration: none;
+}
